@@ -1,0 +1,57 @@
+{
+  "name": "vue-inputmask-directive",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Vue directive for use inputmask.js on inputs.",
+  "keywords": [
+    "devinputmasktools",
+    "directive",
+    "mask",
+    "input",
+    "vue"
+  ],
+  "homepage": "https://github.com/alex-lit/vue-inputmask-directive#readme",
+  "bugs": {
+    "url": "https://github.com/alex-lit/vue-inputmask-directive/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-lit/vue-inputmask-directive.git"
+  },
+  "license": "MIT",
+  "author": "Alexey Litovchenko",
+  "maintainers": [
+    {
+      "name": "Alexey Litovchenko",
+      "email": "alex.lit@outlook.com",
+      "url": "https://alexlit.gitlab.io"
+    }
+  ],
+  "main": "./dist/vue-inputmask-directive.common.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "lint": "./node_modules/@alexlit/lint-kit/scripts/lint.sh",
+    "lint:eslint": "./node_modules/@alexlit/lint-kit/scripts/lint.eslint.sh",
+    "lint:markdownlint": "./node_modules/@alexlit/lint-kit/scripts/lint.markdownlint.sh",
+    "lint:stylelint": "./node_modules/@alexlit/lint-kit/scripts/lint.stylelint.sh",
+    "publish": "./node_modules/@alexlit/lint-kit/scripts/publish.sh",
+    "semver": "./node_modules/@alexlit/lint-kit/scripts/semver.sh",
+    "up": "./node_modules/@alexlit/lint-kit/scripts/up.sh",
+    "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
+  },
+  "devDependencies": {
+    "@alexlit/lint-kit": "^0.33.0",
+    "@types/inputmask": "^5.0.0",
+    "@vue/cli-plugin-typescript": "~4.5.11",
+    "@vue/cli-service": "~4.5.11",
+    "inputmask": "^5.0.5",
+    "typescript": "^4.1.5",
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
