@@ -5,24 +5,32 @@ inputs.
 
 ## Usage
 
-```ts
-import { mask } from '@alexlit/vue-inputmask-directive';
+- Install
 
-export default {
-  directives: { mask },
+  ```sh
+  npm i @alexlit/vue-inputmask-directive
+  ```
 
-  data() {
-    return { value: '' };
-  },
-};
-```
+- Use
 
-```html
-<template>
-  <input
-    v-model="value"
-    v-mask="{ mask: '(999) 999-9999' }"
-    placeholder="Your phone number"
-  />
-</template>
-```
+  ```ts
+  import { mask } from '@alexlit/vue-inputmask-directive';
+
+  export default {
+    directives: { mask },
+
+    data() {
+      return { value: '' };
+    },
+  };
+  ```
+
+  ```html
+  <template>
+    <input
+      v-model="value"
+      v-mask="{ mask: '(999) 999-9999' }"
+      placeholder="Your phone number"
+    />
+  </template>
+  ```
