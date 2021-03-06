@@ -10,7 +10,7 @@ import type { DirectiveOptions } from 'vue';
  *
  * @param event
  */
-function denyCyrilic(event: KeyboardEvent) {
+function denyCyrillic(event: KeyboardEvent) {
   if (/[А-яё]+/gi.test(event.key)) {
     event.preventDefault();
   }
@@ -26,10 +26,10 @@ const twoFA: Inputmask.Options = {
   insertMode: false,
   insertModeVisual: false,
   mask: '999999',
-  placeholder: '●',
   onKeyDown(event: KeyboardEvent) {
-    denyCyrilic(event);
+    denyCyrillic(event);
   },
+  placeholder: '●',
 };
 
 Inputmask.extendAliases({

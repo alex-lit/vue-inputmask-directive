@@ -1,5 +1,5 @@
 {
-  "name": "vue-inputmask-directive",
+  "name": "@alexlit/vue-inputmask-directive",
   "version": "0.1.0",
   "private": false,
   "description": "Vue directive for use inputmask.js on inputs.",
@@ -43,12 +43,12 @@
     "version": "./node_modules/@alexlit/lint-kit/scripts/version.sh"
   },
   "devDependencies": {
-    "@alexlit/lint-kit": "^0.33.0",
+    "@alexlit/lint-kit": "^2.0.0",
     "@types/inputmask": "^5.0.0",
     "@vue/cli-plugin-typescript": "~4.5.11",
     "@vue/cli-service": "~4.5.11",
     "inputmask": "^5.0.5",
-    "typescript": "^4.1.5",
+    "typescript": "^4.2.3",
     "vue": "^2.6.12",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2",
